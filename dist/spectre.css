@@ -375,7 +375,6 @@ p {
 a,
 ins,
 u {
-  -webkit-text-decoration-skip: ink edges;
   text-decoration-skip: ink edges;
 }
 
@@ -552,7 +551,6 @@ html:lang(ko),
 
 .btn {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: #fff;
   border: .05rem solid #5755d9;
@@ -569,7 +567,6 @@ html:lang(ko),
   text-decoration: none;
   transition: background .2s, border .2s, box-shadow .2s, color .2s;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   vertical-align: middle;
@@ -837,7 +834,6 @@ legend {
 
 .form-input {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: #fff;
   background-image: none;
@@ -919,7 +915,6 @@ textarea.form-input.input-sm {
 
 .form-select {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: #fff; 
   border: .05rem solid #bcc3ce;
@@ -3475,7 +3470,6 @@ a.text-error:visited {
 }
 
 .p-sticky {
-  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -3752,7 +3746,6 @@ a.text-error:visited {
 }
 
 .text-break {
-  -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
   word-break: break-word;

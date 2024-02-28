@@ -106,7 +106,6 @@
 
 .calendar .calendar-date .date-item {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: transparent;
   border: .05rem solid transparent;
@@ -504,7 +503,6 @@
   padding: .2rem .4rem;
   position: absolute;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
@@ -564,7 +562,6 @@
 
 .meter {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: #f7f8f9;
   border: 0;
@@ -847,7 +844,6 @@
 
 .progress {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: #eef0f3;
   border: 0;
@@ -893,7 +889,6 @@
 
 .slider {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: transparent;
   display: block;
