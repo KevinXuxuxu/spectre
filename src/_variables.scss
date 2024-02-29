@@ -5,40 +5,40 @@ $version: "0.5.9";
 $rtl: false !default;
 
 // Core colors
-$primary-color: #5755d9 !default;
-$primary-color-dark: darken($primary-color, 3%) !default;
-$primary-color-light: lighten($primary-color, 3%) !default;
-$secondary-color: lighten($primary-color, 37.5%) !default;
-$secondary-color-dark: darken($secondary-color, 3%) !default;
-$secondary-color-light: lighten($secondary-color, 3%) !default;
+$primary-color: #babaf8 !default;
+$primary-color-dark: lighten($primary-color, 3%) !default;
+$primary-color-light: darken($primary-color, 3%) !default;
+$secondary-color: darken($primary-color, 20.5%) !default;
+$secondary-color-dark: lighten($secondary-color, 3%) !default;
+$secondary-color-light: darken($secondary-color, 3%) !default;
 
 // Gray colors
-$dark-color: #303742 !default;
-$light-color: #fff !default;
-$gray-color: lighten($dark-color, 55%) !default;
-$gray-color-dark: darken($gray-color, 30%) !default;
-$gray-color-light: lighten($gray-color, 20%) !default;
+$dark-color: #e2e2e2 !default;
+$light-color: #24272B !default;
+$gray-color: darken($dark-color, 35%) !default;
+$gray-color-dark: lighten($gray-color, 30%) !default;
+$gray-color-light: darken($gray-color, 20%) !default;
 
-$border-color: lighten($dark-color, 65%) !default;
-$border-color-dark: darken($border-color, 10%) !default;
-$border-color-light: lighten($border-color, 8%) !default;
-$bg-color: lighten($dark-color, 75%) !default;
-$bg-color-dark: darken($bg-color, 3%) !default;
+$border-color: darken($dark-color, 65%) !default;
+$border-color-dark: lighten($border-color, 10%) !default;
+$border-color-light: darken($border-color, 8%) !default;
+$bg-color: darken($dark-color, 75%) !default;
+$bg-color-dark: lighten($bg-color, 3%) !default;
 $bg-color-light: $light-color !default;
 
 // Control colors
-$success-color: #32b643 !default;
-$warning-color: #ffb700 !default;
-$error-color: #e85600 !default;
+$success-color: #46A473 !default;
+$warning-color: #A38F2D !default;
+$error-color: #CA7081 !default;
 
 // Other colors
-$code-color: #d73e48 !default;
-$highlight-color: #ffe9b3 !default;
+$code-color: #ccd1d6 !default;
+$highlight-color: #3E4044 !default;
 $body-bg: $bg-color-light !default;
-$body-font-color: lighten($dark-color, 5%) !default;
+$body-font-color: darken($dark-color, 5%) !default;
 $link-color: $primary-color !default;
-$link-color-dark: darken($link-color, 10%) !default;
-$link-color-light: lighten($link-color, 10%) !default;
+$link-color-dark: lighten($link-color, 10%) !default;
+$link-color-light: darken($link-color, 10%) !default;
 
 // Fonts
 // Credit: https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
