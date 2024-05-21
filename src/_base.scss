@@ -22,7 +22,7 @@ body {
 }
 
 a {
-  color: $link-color;
+  color: $link-color-light;
   outline: none;
   text-decoration: none;
 
@@ -39,6 +39,6 @@ a {
   }
 
   &:visited {
-    color: $link-color-light;
+    color: $link-color;
   }
 }

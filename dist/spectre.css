@@ -295,7 +295,7 @@ body {
 }
 
 a {
-  color: #babaf8;
+  color: #8c8cf3;
   outline: none;
   text-decoration: none;
 }
@@ -313,7 +313,7 @@ a.active {
 }
 
 a:visited {
-  color: #8c8cf3;
+  color: #babaf8;
 }
 
 h1,
